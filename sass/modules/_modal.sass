@@ -1,0 +1,52 @@
+.modal
+    
+    &-content
+        max-width: 400px
+        min-width: 300px
+        margin: 0px auto
+    
+    &-body
+        background-image: linear-gradient( rgba(44, 59, 79, 0.75), rgba(44, 59, 79, 0.75) ), url('../img/signUP.png')
+        background-repeat: no-repeat
+        background-size: cover
+        position: relative
+        background-position: center
+        
+    &-header
+        color: white
+        text-transform: uppercase
+        border-bottom: 0px
+        text-align: center
+        font-size: 25px
+        
+    &-close
+        color: white
+    
+    input
+        display: block
+        margin: 0px auto
+        margin-bottom: 20px
+        height: 40px
+        color: #FFF
+        background-color: transparent
+        border: 1px solid #FFF
+        font-size: 20px
+        padding-left: 15px
+
+        &[type="submit"]
+            width: 275px
+            display: block
+            margin: 0 auto
+            margin-top: 20px
+            margin-bottom: 20px
+            background-color: #3498DB
+            border: 1px solid #3498DB
+            border-radius: 20px
+            color: white
+            text-transform: uppercase
+            transition: background-color 0.3s
+
+            &:hover, &:active, &:focus
+                color: #3498DB
+                background-color: white
+                text-decoration: none

@@ -1,0 +1,59 @@
+.greeting
+    margin-top: 100px
+    text-align: center
+    
+    &-header, &-text
+        color: white
+        
+    &-header
+        font-size: 60px
+        
+    &-text
+        margin: 0 auto
+        margin-top: 50px
+        width: 80%
+        font-size: 20px
+        font-weight: 200
+        
+    &-down
+        display: block
+        color: white
+        font-size: 24px
+        transition: color 0.3s
+        
+        &:hover, &:active, &:focus
+            color: #7A838C
+        
+    &-button
+        width: 180px
+        display: block
+        margin: 0 auto
+        margin-top: 50px
+        margin-bottom: 50px
+        background-color: #3498DB
+        border-radius: 20px
+        color: white
+        padding: 12.5px 20px 12.5px 20px
+        text-transform: uppercase
+        transition: background-color 0.3s
+        
+        &:hover, &:active, &:focus
+            color: #3498DB
+            background-color: white
+            text-decoration: none
+        
+    &-thin
+        font-weight: 300
+        font-style: italic
+        
+    @media screen and (min-width: 768px)
+        
+        &-header
+            margin-top: 175px
+            
+        &-button
+            margin-top: 100px
+            margin-bottom: 100px
+            
+        &-down
+            margin-bottom: 35px

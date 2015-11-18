@@ -1,0 +1,57 @@
+.context
+    background-color: #F7F8FA
+    padding-top: 20px
+    
+    &-image
+        width: 100%
+        max-width: 600px
+        
+    &-header
+        margin-bottom: 40px
+        
+    &-text
+        margin-top: 15px
+        
+    @media screen and (min-width: 992px) 
+        border-bottom: 1px solid #E6E9EA
+        
+        &-container
+            width: 100%
+            padding-left: 0px
+            
+        &-container-text
+            margin-top: 50px
+            
+        &-influence, &-matters
+            width: 85%
+        
+    @media screen and (max-width: 992px)
+        
+        &-container
+            width: 100%
+            padding: 0px
+            
+            .row 
+                margin: 0px
+        
+        &-container-text
+            text-align: center
+            padding: 0px
+            
+        &-text, &-header
+            width: 80%
+            margin: 0 auto
+            margin-bottom: 20px
+            
+        &-influence
+            background-image: url('../img/mobile-back-1.png')
+            background-repeat: no-repeat
+            background-size: cover
+            position: relative
+            background-position: center
+            min-height: 230px
+            
+            p
+                color: white
+                position: relative
+                top: 30px

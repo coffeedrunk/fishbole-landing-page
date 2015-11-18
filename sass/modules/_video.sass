@@ -1,0 +1,65 @@
+.video
+    
+    &-image
+        width: 100%
+        float: right
+        max-width: 600px
+        
+    &-header
+        margin-bottom: 40px
+        color: #3D4351
+        
+    &-text
+        margin-top: 15px
+        
+    @media screen and (min-width: 992px) 
+        border-bottom: 1px solid #E6E9EA
+        
+        &-container
+            width: 100%
+        
+        &-container-image
+            padding-right: 0px
+            
+        &-container-text
+            margin-top: 50px
+            
+        &-fishbole, &-slideshare
+            width: 85%
+            float: right
+        
+    @media screen and (max-width: 992px)
+        padding-top: 20px
+        background-color: #F7F8FA
+        
+        &-container
+            width: 100%
+            padding: 0px
+            
+            .row 
+                margin: 0px
+        
+        &-container-text
+            text-align: center
+            padding: 0px
+            
+        &-container-image
+            padding-right: 0px
+            
+        &-text, &-header
+            width: 80%
+            margin: 0 auto
+            margin-bottom: 20px
+            
+        &-slideshare
+            background-image: url('../img/mobile-back-2.png')
+            background-repeat: no-repeat
+            background-size: cover
+            position: relative
+            background-position: center
+            min-height: 230px
+            
+            p
+                color: white
+                position: relative
+                top: 30px

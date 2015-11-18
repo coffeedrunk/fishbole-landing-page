@@ -1,0 +1,53 @@
+.navbar
+    margin-top: 25px
+    
+    &-nav
+        margin-top: 10px
+    
+    &-default
+        background-color: transparent
+        border-color: transparent
+        
+    &-brand img
+        width: 125px
+        
+    &-item > a
+        text-transform: uppercase
+        padding-top: 10px !important
+        padding-bottom: 10px !important
+        color: white !important
+        font-size: 16px
+        
+    &-signup
+        border: 1px solid white
+        border-radius: 40px
+        padding-left: 20px
+        padding-right: 20px
+        
+    &-hr
+        opacity: 0.5
+        
+    @media screen and (max-width: 768px)
+        
+        &-hr
+            position: relative
+            bottom: 15px
+        
+        &-signup
+            border: none
+        
+        &-brand
+            float: right
+            
+        &-toggle
+            float: left
+            margin-top: 15px
+            border-color: transparent !important
+            
+            .icon-bar
+                background-color: white !important
+            
+            &:hover, &:active, &:focus
+                background-color: transparent !important
+            
+        

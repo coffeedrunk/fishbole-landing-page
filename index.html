@@ -1,12 +1,245 @@
-<html>
-	<body>
-		<div>
-			<ul>
-				<li>Cricket</li>
-				<li>Pitch</li>
-		</ul>
-		</div>
-	</body>
+<!DOCTYPE HTML>
 
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fishbole</title>
+    
+    <!-- ADDING CSS -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    
+    <!-- ADDING JAVASCRIPT -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/main.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<header id="header">
+        <div class="container">
+            
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img src="img/LG-WHT.png"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                   <li class="navbar-item"><a data-scroll href="#signup">Sign Up</a></li>
+                  <!-- <li class="navbar-item"><a href="#" class="navbar-signup" data-toggle="modal" data-target="#myModal">Log in</a></li> -->
+                  </ul> 
+                </div>
+              </div>
+            </nav>
+            
+            <hr class="navbar-hr">
+            
+            <div class="greeting">
+                <h1 class="greeting-header animated bounceInDown">DIY video to <span class="greeting-thin">humanize</span> PowerPoint</h1>
+                <p class="greeting-text animated bounceIn">Introducing fishbole. A self-recording video platform that puts context back into your presentation. Rapidly build targeted, organized video content for your business.</p>
+               <!-- <a href="#" class="greeting-button animated fadeIn" data-toggle="modal" data-target="#myModal">Try for free today</a> 
+           -->
+                <a data-scroll href="#content" class="greeting-down animated fadeIn"><span class="glyphicon glyphicon-menu-down"></span></a>
+            </div> 
+            
+        </div>
+	</header>
+    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <form action="/singleaccount.php">
+                <h2 class="modal-header">Get started in 20 seconds</h2>
+                <input type="text" name="First" placeholder="First">
+                <input type="text" name="Last" placeholder="Last">
+                <input type="text" name="Email" placeholder="Email">
+                <input type="text" name="Create Password" placeholder="Create Password">
+                <input type="submit" value="Let's go!" class="modal-button">
+                <h2 class="modal-header">Congratulations</h2>
+              </form>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+	
+	<section id="content" class="animated fadeIn">
+        
+        <article class="music">
+            <div class="container">
+                
+                <h2 class="music-header">Imagine if slides were music.</h2>
+                
+                <div class="row">
+                    <div class="col-xs-12 music-text hidden-lg hidden-md hidden-sm">
+                        <p>Alone, your presentation is simply notes on a page. Context is the lyrics, the stage presence: instrumental in building engagement that resonates and results in your audience humming your tune.</p>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 music-img">
+                        <img src="img/Sheet%20music.png">
+                        <p>Is this Bohemian Rhapsody?</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 music-text hidden-xs">
+                        <p>Alone, your presentation is simply notes on a page. Context is the lyrics, the stage presence: instrumental in building engagement that resonates and results in your audience humming your tune.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 music-img">
+                        <img src="img/freddie.png">
+                        <p>Or is this Bohemian Rhapsody!</p>
+                    </div>
+                    
+                </div>
+            </div>
+                
+        </article>
+        
+        <article class="context">
+            <div class="container context-container">
+                
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
+                        <div>
+                            <img class="context-image" src="img/Screenshot_2.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 context-container-text">
+                        <div class="context-matters">
+                            <h2 class="context-header">Context Matters More Than Ever.</h2>
+                            <p class="context-text">Presenters are trained to use high-impact images and limited text. All important insights from the presenter are lost when these slides are shared, looking like a photo album.</p>
+                        </div>
+                        <div class="context-influence">
+                            <p class="context-text">Recapture the intelligence and imagination of these slides, reconnecting with a personal touch while adding original context and thoughts back into presentation.</p>
+                            <p class="context-text">Increasing your work places knowledge in the process.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+        
+        <article class="video">
+            <div class="container video-container">
+                
+                <div class="row">
+                    <div class="col-lg-7 col-md-5 col-sm-12 col-xs-12 video-container-text">
+                        <div class="video-fishbole">
+                            <h2 class="video-header">Making videos is frustrating.</h2>
+                            <p class="video-text">fishbole makes it easy and efficient to create and share videos, streamlining the video production process so that you can focus on what you're good at - creating content.</p>
+                        </div>
+                        <div class="video-slideshare">
+                            <p class="video-text">Now, anyone with a webcam can capture video and combine this with their PowerPoint presentation.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-7 hidden-sm hidden-xs video-container-image">
+                        <div>
+                            <img class="video-image" src="img/Screenshot_1.png">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+        
+        <article id="signup" class="try">
+            <div class="container">
+                <h3 class="try-header">We’re launching soon...</h3>
+                <p class="try-text">fishbole is currently available by invitation only while we polish up our feature set. If you want to be notified when we are ready to launch please leave your email below.</p>
+        
+
+        <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css" href="css/index.css">
+
+</style>
+<div id="mc_embed_signup">
+<form action="//fishbole.us10.list-manage.com/subscribe/post?u=51cc00fab8d8079c7bd9f5e18&amp;id=d1ae499207" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_51cc00fab8d8079c7bd9f5e18_d1ae499207" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Stay updated" name="subscribe" id="mc-embedded-subscribe" class="try-button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+
+
+                <!-- <a href="#" class="try-button" data-toggle="modal" data-target="#myModal">Lets go!</a> -->
+            </div>
+        </article>
+        
+	</section>
+
+    <footer>
+        
+        <article class="footer-up">
+            
+            <div class="container">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="pull-right footer-up-icon">
+                        <a data-scroll href="#header"><span class="glyphicon glyphicon-menu-up"></span></a>
+                    </div>
+                </div>
+            </div>
+            
+        </article>
+        
+        <article class="footer-bottom">
+            
+            <div class="container footer-bottom-container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 footer-bottom-contact">
+                        <div class="footer-bottom-sign clearfix">
+                            <hr class="visible-xs footer-bottom-hr">
+                            <ul class="footer-bottom-list">
+                           <!-- <li><a href="#" class="hidden-xs">SIGN UP</a></li> -->
+                                <li><a href="mailto:team@fishbole.io">CONTACT</a></li>
+                                <li><a href="#" class="visible-xs">LINKEDIN</a></li>
+                                <li><a href="#" class="visible-xs">TWITTER</a></li>
+                            </ul>
+                            <p class="footer-bottom-copyright">Copyright &copy; 2015 <strong>fishbole inc.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4 footer-bottom-social hidden-xs">
+                        <div class="footer-bottom-updates">
+                            <p>Follow us on linkedin and twitter for updates</p>
+                            <ul class="footer-bottom-icons">
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </article>
+        
+	</footer>
+    
+</body>
 
 </html>
